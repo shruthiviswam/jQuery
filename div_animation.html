@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("button").click(function(){
+  	$("div").animate({left:'250px'},"slow");
+
+  	$("p").fadeTo("slow",0);
+  });
+ });
+</script>
+</head>
+<body>
+<button>Click Here!</button>
+
+
+
+
+<p>This is the text.</p>
+
+<div id=block style="background:red;height:50px;width:50px;position:absolute;"></div><br><br><br><br>
+
+
+
+
+
+</body>
+</html>

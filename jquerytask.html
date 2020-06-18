@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="jquery.min.js"></script>
+	<script>
+		function validate()
+		{
+		$(document).ready(function()
+		{
+			
+				alert("Name : " + $("#Name").val());
+			
+				alert("Gender : " + $("#gender").val());
+		
+				alert("Country : " + $("#Country").val());
+		
+				alert("Language : " + $("#Language").val());
+			
+		});
+	}
+	</script>
+</head>
+
+<body>
+	<h1> Form </h1>
+	<form name="myForm" onsubmit="return (validate())">
+		<label>Name : </label>
+		<input type="text" name id ="Name" >
+		<br>
+		<label> Gender : </label>
+		Male<input type="radio" value="Male" id ="gender">
+		Female<input type="radio" value="Female" id ="gender">
+		<br>
+		<label>Country : </label>	
+		<select id="Country">
+						<option value="A">USA</option>
+						<option value="B">UK</option>
+						<option value="C">INDIA</option>
+		</select>
+		<br>
+		<label> Language : </label>
+		English<input type="checkbox" value="English"  id="Language">
+		Non-English<input type="checkbox" value="Non-English"  id="Language">
+		<br>
+		<button type="Submit" value="Submit"> Submit</button>
+	</form>
+</body>
+</html>

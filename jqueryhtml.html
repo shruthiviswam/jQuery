@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery.min.js"></script>
+<script>
+
+ 
+ 
+ $(document).ready(function()
+  {
+    $("button").click(function()
+    {
+      alert($("button").text(function(i,origText)
+        {
+          return "Old Text:" + origText + "New Text : Hello! (index :"  +i+ ")";
+        });
+    });
+  });
+</script>
+</head>
+<body>
+
+<button>Click here!</button>
+<p> Hey! </p>
+</body>
+</html>
