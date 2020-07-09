@@ -1,4 +1,4 @@
-# JQuery
+# JQuery 
 
 JQuery is the easiest and most popular javascript library. A library is just a collection of tools that allows us to implement functionality or effets without the need to write all the code that is needed to perform a certain task.
 
