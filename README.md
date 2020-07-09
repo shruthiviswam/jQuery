@@ -31,3 +31,22 @@ Basic Syntax is : $(selector).action()
     * $ sign is to define/access JQuery
     * (selector) to "query" or find HTML elements
     * action() to be performed on elements 
+    
+    
+## This repository contains :
+```
+- JQuery Selectors 
+- Event Methods
+- JQuery Effects
+- Animation
+- Callback Functions
+- JQuery Chaining
+- JQuery DOM Manipulation
+- Add Elements
+- JQuery Dimensions
+- JQuery Traversing
+- Accordion
+- AJAX
+```
+
+
