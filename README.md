@@ -49,4 +49,10 @@ Basic Syntax is : $(selector).action()
 - AJAX
 ```
 
+## AJAX : 
 
+Asynchronous JavaScript And Xml.
+Its a means of loading data from the server of the web browser without reloading the whole page. AJAX makes use of JavaScript based on XML Http Request object to send and recieve information to and from a web server asynchronously, in the background, without interfering with the user's experiance.
+
+JQuery provides several methods for AJAX functionality. 
+With JQuery and AJAX methods, you can request text,HTML,XML or JSon from a remote server using both HTTP get and HTTP Post. Then you can load the external data directly into the selected HTML elements of the webpage.
